@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+
+main {
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+.first-paragraph {
+    margin-bottom: 6rem;
+}
+
+ h1, h2, h3 {
+     font-weight: 600;
+     color: hsl(210, 10%, 33%);
+ }
+ 
+
+  p {
+      font-weight: 400;
+      color: hsl(201, 11%, 66%);
+  }
+
+  .btn1 {
+      font-size: 12px;
+      color: white;
+      border-radius: 50px;
+      border: 0;
+      margin-right: .5rem;
+      background-color: hsl(171, 66%, 44%);
+      width: 8rem;
+      padding: .4rem;
+      box-shadow: whitesmoke 5px 5px 10px 10px;
+  }
+  .btn2 {
+    font-size: 12px;
+    color: white;
+    border-radius: 50px;
+    border: 0;
+    background-color: hsl(233, 100%, 69%);
+    width: 8rem;
+    padding: .4rem;
+    box-shadow: whitesmoke 5px 5px 10px 10px;
+}
+
+.second-paragraph {
+    margin-bottom: 6rem;
+}
+
+.img-description {
+    text-align: left;
+    gap: 5rem;      
+}
+.img-description img {
+    margin-left: -2rem;
+    
+}
+.img-description div p {
+    width: 21rem;
+}
+ .offers {
+     gap: 5rem;
+     margin-bottom: 6rem;
+ }
+
+.icons {
+    margin-bottom: 5rem;
+}
+
+footer {
+    margin-top: 5rem;
+    background-color:whitesmoke; 
+
+}
+.other-infos {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    text-align: left;
+    column-gap: 3rem;
+    padding-top: 2rem;    
+}
+.social-handles {
+    gap: 1rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+
+
+
